@@ -98,35 +98,35 @@
                        </thead>
                        <tbody>
                          <tr>
-                           <td><a href="#">763648</a></td>
+                           <td><a href="<?= base_url();?>"#">763648</a></td>
                            <td>Steve</td>
                            <td>$122</td>
                            <td>Oct 21, 2016</td>
                            <td><span class="label label-success">COMPLETED</span></td>
                          </tr>
                          <tr>
-                           <td><a href="#">763649</a></td>
+                           <td><a href="<?= base_url();?>"#">763649</a></td>
                            <td>Amber</td>
                            <td>$62</td>
                            <td>Oct 21, 2016</td>
                            <td><span class="label label-warning">PENDING</span></td>
                          </tr>
                          <tr>
-                           <td><a href="#">763650</a></td>
+                           <td><a href="<?= base_url();?>"#">763650</a></td>
                            <td>Michael</td>
                            <td>$34</td>
                            <td>Oct 18, 2016</td>
                            <td><span class="label label-danger">FAILED</span></td>
                          </tr>
                          <tr>
-                           <td><a href="#">763651</a></td>
+                           <td><a href="<?= base_url();?>"#">763651</a></td>
                            <td>Roger</td>
                            <td>$186</td>
                            <td>Oct 17, 2016</td>
                            <td><span class="label label-success">SUCCESS</span></td>
                          </tr>
                          <tr>
-                           <td><a href="#">763652</a></td>
+                           <td><a href="<?= base_url();?>"#">763652</a></td>
                            <td>Smith</td>
                            <td>$362</td>
                            <td>Oct 16, 2016</td>
@@ -138,7 +138,7 @@
                    <div class="panel-footer">
                      <div class="row">
                        <div class="col-md-6"><span class="panel-note"><i class="fa fa-clock-o"></i> Last 24 hours</span></div>
-                       <div class="col-md-6 text-right"><a href="#" class="btn btn-primary">View All Purchases</a></div>
+                       <div class="col-md-6 text-right"><a href="<?= base_url();?>"#" class="btn btn-primary">View All Purchases</a></div>
                      </div>
                    </div>
                  </div>
@@ -184,7 +184,7 @@
                            <span class="date">Oct 9, 2016</span>
                          </p>
                          <div class="controls">
-                           <a href="#"><i class="icon-software icon-software-pencil"></i></a> <a href="#"><i class="icon-arrows icon-arrows-circle-remove"></i></a>
+                           <a href="<?= base_url();?>"#"><i class="icon-software icon-software-pencil"></i></a> <a href="<?= base_url();?>"#"><i class="icon-arrows icon-arrows-circle-remove"></i></a>
                          </div>
                        </li>
                        <li>
@@ -197,7 +197,7 @@
                            <span class="date">Oct 23, 2016</span>
                          </p>
                          <div class="controls">
-                           <a href="#"><i class="icon-software icon-software-pencil"></i></a> <a href="#"><i class="icon-arrows icon-arrows-circle-remove"></i></a>
+                           <a href="<?= base_url();?>"#"><i class="icon-software icon-software-pencil"></i></a> <a href="<?= base_url();?>"#"><i class="icon-arrows icon-arrows-circle-remove"></i></a>
                          </div>
                        </li>
                        <li>
@@ -210,7 +210,7 @@
                            <span class="date">Oct 11, 2016</span>
                          </p>
                          <div class="controls">
-                           <a href="#"><i class="icon-software icon-software-pencil"></i></a> <a href="#"><i class="icon-arrows icon-arrows-circle-remove"></i></a>
+                           <a href="<?= base_url();?>"#"><i class="icon-software icon-software-pencil"></i></a> <a href="<?= base_url();?>"#"><i class="icon-arrows icon-arrows-circle-remove"></i></a>
                          </div>
                        </li>
                      </ul>
@@ -231,24 +231,24 @@
                    <div class="panel-body">
                      <ul class="list-unstyled activity-list">
                        <li>
-                         <img src="assets/img/user1.png" alt="Avatar" class="img-circle pull-left avatar">
-                         <p><a href="#">Michael</a> has achieved 80% of his completed tasks <span class="timestamp">20 minutes ago</span></p>
+                         <img src="<?= base_url();?>assets/img/user1.png" alt="Avatar" class="img-circle pull-left avatar">
+                         <p><a href="">Michael</a> has achieved 80% of his completed tasks <span class="timestamp">20 minutes ago</span></p>
                        </li>
                        <li>
-                         <img src="assets/img/user2.png" alt="Avatar" class="img-circle pull-left avatar">
-                         <p><a href="#">Daniel</a> has been added as a team member to project <a href="#">System Update</a> <span class="timestamp">Yesterday</span></p>
+                         <img src="<?= base_url();?>assets/img/user2.png" alt="Avatar" class="img-circle pull-left avatar">
+                         <p><a href="">Daniel</a> has been added as a team member to project <a href="">System Update</a> <span class="timestamp">Yesterday</span></p>
                        </li>
                        <li>
-                         <img src="assets/img/user3.png" alt="Avatar" class="img-circle pull-left avatar">
-                         <p><a href="#">Martha</a> created a new heatmap view <a href="#">Landing Page</a> <span class="timestamp">2 days ago</span></p>
+                         <img src="<?= base_url();?>assets/img/user3.png" alt="Avatar" class="img-circle pull-left avatar">
+                         <p><a href="">Martha</a> created a new heatmap view <a href=""">Landing Page</a> <span class="timestamp">2 days ago</span></p>
                        </li>
                        <li>
-                         <img src="assets/img/user4.png" alt="Avatar" class="img-circle pull-left avatar">
-                         <p><a href="#">Jane</a> has completed all of the tasks <span class="timestamp">2 days ago</span></p>
+                         <img src="<?= base_url();?>"assets/img/user4.png" alt="Avatar" class="img-circle pull-left avatar">
+                         <p><a href="">Jane</a> has completed all of the tasks <span class="timestamp">2 days ago</span></p>
                        </li>
                        <li>
-                         <img src="assets/img/user5.png" alt="Avatar" class="img-circle pull-left avatar">
-                         <p><a href="#">Jason</a> started a discussion about <a href="#">Weekly Meeting</a> <span class="timestamp">3 days ago</span></p>
+                         <img src="<?= base_url();?>assets/img/user5.png" alt="Avatar" class="img-circle pull-left avatar">
+                         <p><a href="">Jason</a> started a discussion about <a href="">Weekly Meeting</a> <span class="timestamp">3 days ago</span></p>
                        </li>
                      </ul>
                      <button type="button" class="btn btn-primary btn-bottom center-block">Load More</button>

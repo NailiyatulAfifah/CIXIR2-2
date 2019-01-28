@@ -69,7 +69,7 @@
 							</ul>
 						</li>
 						<li class="dropdown">
-							<a href="<?= base_url()?>#" class="dropdown-toggle" data-toggle="dropdown"><img src="<?= base_url()?>assets/img/foto2.jpg" class="img-circle"> <span>Nayli</span> <i class="icon-submenu lnr lnr-chevron-down"></i></a>
+							<a href="<?= base_url()?>#" class="dropdown-toggle" data-toggle="dropdown"><img src="<?= base_url()?>assets/img/foto2.png" class="img-circle"> <span>Nayli</span> <i class="icon-submenu lnr lnr-chevron-down"></i></a>
 							<ul class="dropdown-menu">
 								<li><a href="<?= base_url()?>#"><i class="lnr lnr-user"></i> <span>My Profile</span></a></li>
 								<li><a href="<?= base_url()?>#"><i class="lnr lnr-envelope"></i> <span>Message</span></a></li>
@@ -85,20 +85,31 @@
 			</div>
 		</nav>
 		<!-- END NAVBAR -->
+		<!-- LEFT SIDEBAR -->
 		<div id="sidebar-nav" class="sidebar">
 			<div class="sidebar-scroll">
 				<nav>
 				<ul class="nav">
-					<li><a href="<?= base_url('index.php/user')?>" class=""><i class="lnr lnr-home"></i> <span>Home</span></a></li>
-					<li><a href="<?= base_url('index.php/user/data_diri')?>" class=""><i class="lnr lnr-code"></i> <span>Profil</span></a></li>
-					<li><a href="<?= base_url('index.php/user/gallery')?>" class=""><i class="lnr lnr-chart-bars"></i> <span>Gallery</span></a></li>
-					<li><a href="<?= base_url('index.php/user/event')?>" class=""><i class="lnr lnr-chart-bars"></i> <span>Event</span></a></li>
+					<li><a href="<?= base_url('index.php/user/home')?>" class=""><i class="lnr lnr-home"></i> <span>Home</span></a></li>
+					<li><a href="<?= base_url('index.php/user/data_diri')?>" class=""><i class="lnr lnr-user"></i> <span>Profil</span></a></li>
+					<li><a href="<?= base_url('index.php/user/gallery')?>" class=""><i class="lnr lnr-heart"></i> <span>Gallery</span></a></li>
+					<li><a href="<?= base_url('index.php/user/event')?>" class=""><i class="lnr lnr-rocket"></i> <span>Event</span></a></li>
+					<li><a href="<?= base_url('index.php/barang')?>" class=""><i class="lnr lnr-cart"></i> <span>Cart</span></a></li>
+					<li><a href="<?= base_url('index.php/kategori')?>" class=""><i class="lnr lnr-map"></i> <span>Category</span></a></li>
+					<li><a href="<?= base_url('index.php/pelanggan/DaftarPelanggan')?>" class="lnr lnr-map"><i class="lnr lnr-"></i> <span>Form Data Pembeli</span></a></li>
+					<li><a href="<?= base_url('index.php/pelanggan')?>" class=""><i class="lnr lnr-user"></i> <span>Data Pembeli</span></a></li>
+					<li><a href="<?= base_url('index.php/user/Logout')?>" class=""><i class="lnr lnr-off"></i> <span>Log Out</span></a></li>
 				</ul>
 				</nav>
 			</div>
 		</div>
-        <?php
-            $this->load->view($konten);
-        ?>
+		<!-- END LEFT SIDEBAR -->
+		<!-- MAIN -->
+		<div class="main">
+                <?php
+                    $this->load->view($konten);
+                 ?>
+		</div>
 </body>
+
 </html>
